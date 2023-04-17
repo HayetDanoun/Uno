@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="uno" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<MakeCommands>
+			<Build command="$make -f $makefile" />
+			<CompileFile command="$make -f $makefile" />
+			<Clean command="$make -f $makefile clean" />
+			<DistClean command="$make -f $makefile clean" />
+			<AskRebuildNeeded command="$make -q -f $makefile $target" />
+			<SilentBuild command="$make -f $makefile &gt; $(CMD_NULL)" />
+		</MakeCommands>
+		<Build>
+			<Target title="DebugTXT">
+				<Option output="bin/txtJeu" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-lncurses -lSDL" />
+				</Linker>
+				<MakeCommands>
+					<Build command="$make -f $makefile" />
+					<CompileFile command="$make -f $makefile" />
+					<Clean command="$make -f $makefile clean" />
+					<DistClean command="$make -f $makefile clean" />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="DebugSDL">
+				<Option output="bin/sdlJeu" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-lncurses -lSDL" />
+				</Linker>
+				<MakeCommands>
+					<Build command="$make -f $makefile" />
+					<CompileFile command="$make -f $makefile" />
+					<Clean command="$make -f $makefile clean" />
+					<DistClean command="$make -f $makefile clean" />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="DebugTest">
+				<Option output="bin/test" prefix_auto="1" extension_auto="1" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="DebugAffichage">
+				<Option output="bin/affichage" prefix_auto="1" extension_auto="1" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="src/core/Carte.cpp">
+			<Option target="DebugTXT" />
+			<Option target="DebugSDL" />
+		</Unit>
+		<Unit filename="src/core/Carte.h">
+			<Option target="DebugTXT" />
+			<Option target="DebugSDL" />
+		</Unit>
+		<Unit filename="src/core/Cartes.cpp">
+			<Option target="DebugTXT" />
+			<Option target="DebugSDL" />
+		</Unit>
+		<Unit filename="src/core/Cartes.h">
+			<Option target="DebugTXT" />
+			<Option target="DebugSDL" />
+		</Unit>
+		<Unit filename="src/core/Jeu.cpp">
+			<Option target="DebugTXT" />
+			<Option target="DebugSDL" />
+		</Unit>
+		<Unit filename="src/core/Jeu.h">
+			<Option target="DebugTXT" />
+			<Option target="DebugSDL" />
+		</Unit>
+		<Unit filename="src/core/Joueur.cpp">
+			<Option target="DebugTXT" />
+			<Option target="DebugSDL" />
+		</Unit>
+		<Unit filename="src/core/Joueur.h">
+			<Option target="DebugTXT" />
+			<Option target="DebugSDL" />
+		</Unit>
+		<Unit filename="src/core/Monde.cpp">
+			<Option target="DebugTXT" />
+			<Option target="DebugSDL" />
+		</Unit>
+		<Unit filename="src/core/Monde.h">
+			<Option target="DebugTXT" />
+			<Option target="DebugSDL" />
+		</Unit>
+		<Unit filename="src/core/mainAffichage.cpp">
+			<Option target="DebugTXT" />
+			<Option target="DebugSDL" />
+		</Unit>
+		<Unit filename="src/core/mainTest.cpp">
+			<Option target="DebugTXT" />
+			<Option target="DebugSDL" />
+		</Unit>
+		<Unit filename="src/sdl2/SdlMonde.cpp">
+			<Option target="DebugTXT" />
+			<Option target="DebugSDL" />
+		</Unit>
+		<Unit filename="src/sdl2/SdlMonde.h">
+			<Option target="DebugTXT" />
+			<Option target="DebugSDL" />
+		</Unit>
+		<Unit filename="src/sdl2/mainSdl.cpp">
+			<Option target="DebugTXT" />
+			<Option target="DebugSDL" />
+		</Unit>
+		<Unit filename="src/txt/main_txt.cpp">
+			<Option target="DebugTXT" />
+			<Option target="DebugSDL" />
+		</Unit>
+		<Unit filename="src/txt/txtJeu.cpp">
+			<Option target="DebugTXT" />
+			<Option target="DebugSDL" />
+		</Unit>
+		<Unit filename="src/txt/txtJeu.h">
+			<Option target="DebugTXT" />
+			<Option target="DebugSDL" />
+		</Unit>
+		<Unit filename="src/txt/winTxt.cpp">
+			<Option target="DebugTXT" />
+			<Option target="DebugSDL" />
+		</Unit>
+		<Unit filename="src/txt/winTxt.h">
+			<Option target="DebugTXT" />
+			<Option target="DebugSDL" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

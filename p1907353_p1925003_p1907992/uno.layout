@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="DebugSDL" />
+	<File name="src/core/Cartes.h" open="1" top="0" tabpos="42" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="268" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src/sdl2/mainSdl.cpp" open="1" top="0" tabpos="35" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="79" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src/core/Joueur.cpp" open="1" top="0" tabpos="40" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="802" topLine="21" />
+		</Cursor>
+	</File>
+	<File name="src/core/Carte.h" open="1" top="0" tabpos="43" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src/core/Cartes.cpp" open="1" top="0" tabpos="41" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1840" topLine="70" />
+		</Cursor>
+	</File>
+	<File name="src/sdl2/SdlMonde.h" open="1" top="0" tabpos="34" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2064" topLine="84" />
+		</Cursor>
+	</File>
+	<File name="src/sdl2/SdlMonde.cpp" open="1" top="0" tabpos="39" split="0" active="1" splitpos="0" zoom_1="-5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="17596" topLine="63" />
+		</Cursor>
+		<Folding>
+			<Collapse line="10" />
+			<Collapse line="18" />
+			<Collapse line="47" />
+			<Collapse line="54" />
+			<Collapse line="233" />
+			<Collapse line="318" />
+			<Collapse line="345" />
+			<Collapse line="407" />
+		</Folding>
+	</File>
+	<File name="src/core/Carte.cpp" open="1" top="0" tabpos="36" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src/core/Monde.cpp" open="1" top="1" tabpos="38" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="14625" topLine="187" />
+		</Cursor>
+		<Folding>
+			<Collapse line="5" />
+			<Collapse line="15" />
+			<Collapse line="31" />
+			<Collapse line="39" />
+			<Collapse line="60" />
+			<Collapse line="129" />
+			<Collapse line="145" />
+			<Collapse line="161" />
+			<Collapse line="294" />
+			<Collapse line="319" />
+			<Collapse line="338" />
+			<Collapse line="353" />
+			<Collapse line="401" />
+			<Collapse line="432" />
+			<Collapse line="442" />
+			<Collapse line="463" />
+			<Collapse line="479" />
+		</Folding>
+	</File>
+	<File name="src/core/Monde.h" open="1" top="0" tabpos="44" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="965" topLine="16" />
+		</Cursor>
+	</File>
+	<File name="src/core/mainAffichage.cpp" open="1" top="0" tabpos="37" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="60" topLine="0" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>
